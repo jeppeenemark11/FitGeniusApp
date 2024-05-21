@@ -113,7 +113,7 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ setInProgress, setLoading
         setaiActivated(true);
 
     try {
-        const response = await fetch('https://us-central1-exercise-app-15021.cloudfunctions.net/longRunningTask', {
+        const response = await fetch('/api/chatgpt', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
