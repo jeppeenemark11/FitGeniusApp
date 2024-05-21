@@ -1,7 +1,0 @@
-{
-    "functions": {
-      "api/chatgpt.ts": {
-        "maxDuration": 60
-      }
-    }
-  }

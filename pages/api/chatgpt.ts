@@ -11,6 +11,11 @@ if (!assistantId) {
     throw new Error("Environment variable ASSISTANT_ID is not set.");
 }
 
+export const config = {
+    maxDuration: 60,
+  };
+   
+
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     if (req.method !== 'POST') {
         res.setHeader('Allow', ['POST']);
