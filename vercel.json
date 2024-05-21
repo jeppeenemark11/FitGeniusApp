@@ -1,6 +1,5 @@
 {
     "build": {
-      "ignore": ["functions"]
+      "ignoreCommand": "echo \"functions\""
     }
   }
-  
